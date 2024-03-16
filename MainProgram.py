@@ -33,6 +33,7 @@ class MainWindow(QMainWindow):
         self.setStyleSheet(qssStyleSheet)
 
     def signalconnect(self):
+        # 按钮功能
         self.ui.PicBtn.clicked.connect(self.open_img)
         self.ui.comboBox.activated.connect(self.combox_change)
         self.ui.VideoBtn.clicked.connect(self.vedio_show)
