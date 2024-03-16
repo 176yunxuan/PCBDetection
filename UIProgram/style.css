@@ -1,0 +1,10 @@
+
+QPushButton#SaveBtn{color:black;
+            background-color:transparent;}
+QPushButton#ExitBtn{color:black;
+            background-color:transparent;}
+QPushButton:hover{color:red}
+QPushButton:pressed{background-color:transparent;border: None;}
+
+
+#MainWindow{border-image:url(UIProgram/ui_imgs/background_noword.png)}
